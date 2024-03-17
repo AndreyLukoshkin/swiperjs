@@ -116,22 +116,19 @@ h6 {
 .buttons {
   margin: 0 auto;
   height: 100px;
-  width: 300px;
+  width: 170px;
   position: relative;
 }
 
 .swiper-button-next,
 .swiper-button-prev {
+  height: 50px !important;
   width: 50px !important;
+  border: 1px solid black;
+  border-radius: 50%;
 }
 
 .swiper-button-next::after,
 .swiper-button-prev::after {
-  position: absolute;
-  content: '';
-  width: 50px;
-  height: 50px;
-  /* border: 1px solid black; */
-  border-radius: 50%;
-  color: rebeccapurple;
+  content: '' !important;
 }
