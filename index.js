@@ -37,6 +37,8 @@ getData('https://jsonplaceholder.typicode.com/posts')
         prevEl: '.swiper-button-prev',
       },
 
+      centeredSlidesBounds: true,
+
       loop: false,
 
       slidesPerView: 4,

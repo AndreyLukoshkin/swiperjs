@@ -111,6 +111,7 @@ h6 {
 .swiper-slide {
   border-radius: 10px;
   background-color: rgb(166, 166, 208);
+  max-width: 340px;
 }
 
 .buttons {
@@ -131,4 +132,42 @@ h6 {
 .swiper-button-next::after,
 .swiper-button-prev::after {
   content: '' !important;
+}
+
+@media (max-width: 1440px) {
+  .wrapper {
+  }
+
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+  }
+
+  .container {
+    width: 360px;
+    margin-left: 20px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .wrapper {
+  }
+
+  .container {
+    max-width: 1360px;
+  }
+}
+
+@media (max-width: 320px) {
+  .wrapper {
+  }
+
+  .container {
+    width: 250px;
+    margin-left: 0;
+  }
 }
